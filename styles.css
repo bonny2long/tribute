@@ -45,6 +45,8 @@ ol {
   display: block;
   width: 430px;
   height: 573px;
+  border-radius: 2%;
+  border: 1px solid blue;
 }
 
 ul {
