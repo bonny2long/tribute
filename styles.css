@@ -1,103 +1,70 @@
-body {
-  font-family: "Exo 2", sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #f4f4f4;
+
+
+@media screen and (max-width: 768px) {
+  main {
+    width: 95%;
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+  }
+
+  #tagline {
+    flex-direction: column;
+    text-align: center;
+    font-size: 1rem;
+  }
+
+  #image {
+    width: 100%;
+    height: auto;
+  }
+
+  ul {
+    margin-left: 20px;
+    padding: 8px;
+  }
+
+  ol {
+    margin-left: 10px;
+    font-size: 0.9rem;
+  }
+
+  blockquote {
+    padding: 10px;
+    font-size: 0.9rem;
+  }
+
+  footer {
+    font-size: 0.9rem;
+    padding: 8px 0;
+  }
 }
 
-main {
-  width: 80%;
-  margin: 0 auto;
-  padding: 20px;
-}
+@media screen and (max-width: 480px) {
+  h1 {
+    font-size: 1.8rem;
+  }
 
-h1 {
-  text-align: center;
-  font-size: 3rem;
-  margin-bottom: 10px;
-  color: blue;
-}
+  #tagline {
+    font-size: 0.9rem;
+  }
 
-#tagline {
-  display: flex;
-  justify-content: center;
-}
+  ul, ol {
+    margin-left: 5px;
+    padding: 5px;
+  }
 
-h3,
-h4 {
-  color: #333;
-}
+  #tribute-info {
+    padding: 15px;
+    font-size: 0.9rem;
+  }
 
-ol {
-  font-weight: bold;
-  margin-left: 20px;
-}
-
-#img-div {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  text-align: center;
-}
-
-#image {
-  display: block;
-  width: 430px;
-  height: 573px;
-  border-radius: 2%;
-  border: 1px solid blue;
-}
-
-ul {
-  list-style-type: square;
-  margin-left: 40px;
-  background-color: #f0f0f0;
-  padding: 10px;
-  border-radius: 5px;
-}
-
-ul li {
-  margin-bottom: 10px;
-}
-
-#tribute-link {
-  color: #1d72b8;
-  text-decoration: none;
-}
-
-#tribute-link:hover {
-  text-decoration: underline;
-}
-
-#tribute-info {
-  padding: 20px;
-  background-color: #ffffff;
-  border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-blockquote {
-  font-style: italic;
-  color: #555;
-  background-color: #eaeaea;
-  padding: 15px;
-  border-left: 5px solid #ccc;
-  margin-top: 20px;
-}
-
-footer {
-  background-color: darkgrey;
-  color: darkcyan;
-  text-align: center;
-  padding: 10px 0;
-}
-
-a {
-  color: darkcyan;
-  cursor: pointer;
-}
-
-a:hover {
-  color: purple;
+  blockquote {
+    padding: 8px;
+    margin-top: 15px;
+    font-size: 0.8rem;
+  }
 }
